@@ -1,0 +1,214 @@
+E: CCC tests begin...
+E:  HASH tests begin...
+E: MD5 sum passed
+E: SHA1 sum passed
+E: SHA224 sum passed
+E: SHA256 sum passed
+E:  ... HASH tests end.
+E:  HASH and MOVE tests begin...
+E: MD5 sum passed
+E: SHA1 sum passed
+E: SHA224 sum passed
+E: SHA256 sum passed
+E:  ... HASH and MOVE tests end.
+E:  HASH and MOVE 128K test begin...
+E: SHA256 128K sum failed
+E:  ... HASH and MOVE 128K test end.
+E:  MOVE test begin...
+E: MOVE sum passed
+E:  ... MOVE test end.
+E:  AES cipher with Special key slot tests begin...
+E:   in place...
+E: AES-128-ECB palindrome encryption passed
+E: AES-128-ECB palindrome decryption passed
+E: AES-128-ECB encryption passed
+E: AES-128-ECB decryption passed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-128-CBC encryption passed
+E: AES-128-GCM encryption passed
+E: AES-128-GCM authenticated encryption passed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:   with translation...
+E: AES-128-ECB palindrome encryption passed
+E: AES-128-ECB palindrome decryption passed
+E: AES-128-ECB encryption passed
+E: AES-128-ECB decryption passed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-128-CBC encryption passed
+E: AES-128-GCM encryption passed
+E: AES-128-GCM authenticated encryption passed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:   big data authenticated encryption in place...
+E: AES-128-GCM 256KB data authenticated encryption failed
+E:   ... done.
+E:   big data ciphering then HASH in place...
+E: AES-128-ECB 192KB data encryption failed
+E: AES-128-ECB 256KB data encryption failed
+E:   ... done.
+E:   in place with provisioned key #0...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:   in place with provisioned key #1...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:   in place with provisioned locked key #0...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:   in place with provisioned locked key #1...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E:   ... done.
+E:  ... done.
+E:  AES cipher with General Purpose key slot tests begin...
+E:   in place with provisioned key #2...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #3...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #4...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #5...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #6...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #7...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #8...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #9...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #10...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #11...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #12...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #13...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #14...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:   in place with provisioned key #15...
+E: AES-128-ECB encryption failed
+E: AES-192-ECB encryption failed
+E: AES-256-ECB encryption failed
+E: AES-256-GCM authenticated encryption failed
+E: AES-128-GCM authenticated encryption with header failed
+E:   ... done.
+E:  AES CCM mode cipher tests begin...
+E: AES-128-CCM-NIST-1 encryption failed
+E: AES-128-CCM-NIST-1 decryption authentication failed
+E: AES-128-CCM-NIST-1 decryption failed
+E: AES-128-CCM-NIST-2 encryption failed
+E: AES-128-CCM-NIST-2 decryption authentication failed
+E: AES-128-CCM-NIST-2 decryption failed
+E: AES-128-CCM-NIST-3 encryption failed
+E: AES-128-CCM-NIST-3 decryption authentication failed
+E: AES-128-CCM-NIST-3 decryption failed
+E: AES-128-CCM-NIST-4 encryption failed
+E:  ... done.
+E:  ... AES ciphering tests end.
+E:  RSA cipher tests begin...
+E: RSA 64 bits modular exponentiation passed
+E: RSA 64 bits modular exponentiation of 4 chunks failed
+E: RSA 160 bits modular exponentiation failed
+E: RSA 512 bits modular exponentiation failed
+E: RSA 512 bits modular exponentiation of 2 chunks failed
+E:  ... RSA ciphering tests end.
+E:  ECC cipher tests begin...
+E: ECC scalar multiplication of 112 bits curve failed
+E: ECC scalar multiplication of NIST P-192 (k = 1) curve failed
+E: ECC scalar multiplication of a 384 bits curve failed
+E: ECDSA 192 signature generation failed
+E: ECDSA 192 signature verification failed with error 0xfffffffd
+E:  ... ECC ciphering tests end.
+E:  Random generation tests begin...
+E: Generate a 32 bits random passed
+E: Generate a 32 bits random passed
+E: Generate a 32 bits random passed
+E: Generate a 32 bits random passed
+E: Generate a 32 bits random passed
+E: Generate a 64 bits random passed
+E: Generate a 128 bits random passed
+E: Generate a 192 bits random passed
+E: Generate a 256 bits random passed
+E:  ... Random generation tests end.
+E: ... CCC tests end.
